@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+}
+body {
+  background-image: url(/public/backgroundcloud.webp);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.counter__output {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: 700;
+}
